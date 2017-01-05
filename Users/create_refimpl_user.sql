@@ -1,5 +1,5 @@
--- ALTER SESSION
-alter session set "_ORACLE_SCRIPT"=true;
+-- ALTER SESSION for 12c only
+--alter session set "_ORACLE_SCRIPT"=true;
 
 -- USER SQL
 CREATE USER refimpl IDENTIFIED BY refimpl ;
