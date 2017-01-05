@@ -1,0 +1,13 @@
+-- ALTER SESSION
+alter session set "_ORACLE_SCRIPT"=true;
+
+-- USER SQL
+CREATE USER refimpl IDENTIFIED BY refimpl ;
+
+-- QUOTAS
+
+-- ROLES
+GRANT "DBA" TO refimpl WITH ADMIN OPTION;
+ALTER USER refimpl DEFAULT ROLE "DBA";
+
+-- SYSTEM PRIVILEGES
